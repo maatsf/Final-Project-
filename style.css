@@ -13,10 +13,11 @@ a{
 }
 
 .navlinks {
+  z-index: 9;
 	padding: 1%;
 	background-color: black;
 	overflow: hidden;
-  position: absolute;
+  position: fixed;
 	top: 0;
 	width: 100%;
   margin-left: -2%;
@@ -29,16 +30,12 @@ a{
 	float: right;
 	display: inline;
 	text-align: center;
-	padding: 7px 15px;
-	border: solid white 2px;
-	border-radius: 500px;
-	transition-duration: 0.5s;
+	padding: 15px 15px;
+	transition-duration: 0.2s;
 }
 
 .navlinks a:hover{
-	color: black;
-	background-color: white;
-  border-bottom: 5px solid white;
+	background-color: rgb(52, 52, 52);
 }
 
   #bildekarusell {
@@ -70,9 +67,10 @@ a{
   }
 
   #logo{
+    z-index: 99;
     width: 50px;
     width: 50px;
     position: fixed;
-    top: 5px;
+    top: 10px;
     left: 5px;
   }
