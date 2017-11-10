@@ -1,7 +1,7 @@
 var indeksSynligBilde = 0; var indeksNesteBilde;
 var tid = 3000;
 // En array med alle bildefilene
-var bildefiler = ["bilde1.png", "bilde2.png", "bilde3.png", "bilde4.png"];
+var bildefiler = ["bilde1.jpg", "bilde2.jpg", "bilde3.png", "bilde4.png"];
 
 // Henter alle elementer med klassen .bilde
 var bilder = document.querySelectorAll(".bilde");
@@ -13,4 +13,20 @@ bilder[i].style.backgroundImage = "url(bilder/" + bildefiler[i] + ")";
 if (i != 0) {
 // Setter display til none (usynlig) bilder[i].style.display = "none";
 }
-setTimeout(flytt, tid);
+
+function flytt() {
+  if (indeksSynligBilde === bilder.length - 1) {
+    indeksNesteBilde = 0;
+  }
+    else {
+      indeksNesteBilde = indeksSynligBilde + 1;
+    }
+// Bildet settes inn til høyre for nåværende bilde,
+// og animeres inn
+bilder[indeksNesteBilde].style.left = "800px";
+bilder[indeksNesteBilde].style.display = "initial";
+bilder[indeksNesteBilde].style.animation = "innFraHoyre 2s forwards";
+// Eksisterende bilde animeres ut til venstre
+bilder[indeksSynligBilde].style.animation = "utTilVenstre 2s forwards";
+indeksSynligBilde = indeksNesteBilde;
+setTimeout(flytt, tid); }
