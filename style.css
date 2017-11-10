@@ -39,3 +39,29 @@ a{
 .navlinks a:hover{
 	color: black;
 	background-color: white;
+}
+
+  #bildekarusell {
+  	width: 600px;
+  	height: 150px;
+  	position: relative;
+  	margin: 150px auto;
+  	overflow: hidden;
+  }
+
+  .bilde {
+  width: 600px;
+  height: 150px;
+  position: absolute;
+  left: 0px;
+  }
+
+  @keyframes innFraHoyre {
+  	from { left: 600px; }
+  	to { left: 0px; }
+   }
+
+  @keyframes utTilVenstre {
+  	 from { left: 0px; }
+  	 to { left: -600px; }
+  }
