@@ -3,6 +3,7 @@ body {
   padding: 0px;
 	background-color: white;
 	font-family: Helvetica,Arial,sans-serif;
+  background-color: black;
 }
 
 a{
@@ -15,6 +16,7 @@ ul{
 }
 
 .navlinks {
+  overflow: hidden;
   z-index: 9;
 	background-color: black;
   position: fixed;
@@ -24,10 +26,13 @@ ul{
 }
 
 
-.navlinks ul li{
+.navlinks ul li {
 	margin-left: 0%;
 	float: right;
 	padding: 25px 25px;
+  padding-bottom: 30px;
+  display: run-in;
+  z-index: 99999;
 }
 
 .navlinks li:hover{
@@ -84,13 +89,22 @@ ul{
   .forside{
     color: white;
     z-index: 2;
-    position: relative;
+    position: absolute;
     text-align: center;
-    top: -1050px;
+    top: 200px;
+    left: 25%;
+    right: 25%;
   }
 
   .omoss{
+    margin-top: -70px;
+    background-color: white;
+  }
 
+  .omossTekst{
+    width: 50%;
+    display: inline-block;
+    font-size: 20px;
   }
 
   .footer{
@@ -111,6 +125,18 @@ ul{
     }
 
     .navlinks ul{
-      margin-top: 50px;
+      margin-top: 0px;
       padding: 0px;
+    }
+
+    .navlinks{
+
+      overflow: visible;
+      position: inherit;
+      top: 300px;
+      z-index: 97;
+    }
+
+    .forside{
+      top: 290px;
     }
