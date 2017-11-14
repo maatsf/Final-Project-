@@ -38,6 +38,12 @@ ul{
 	background-color: rgb(52, 52, 52);
 }
 
+.flagg{
+  margin-top: -10px;
+  width: 40px;
+  height: auto;
+}
+
   #bildekarusell {
     background-color: black;
     margin: 68px 0px;
