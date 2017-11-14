@@ -1,8 +1,8 @@
 var indeksSynligBilde = 0;
 var indeksNesteBilde;
-var tid = 3000;
+var tid = 5000;
 // En array med alle bildefilene
-var bildefiler = ["bilde1.jpg", "bilde2.jpg", "bilde3.jpg", "bilde4.jpg"];
+var bildefiler = ["bilde5.jpg", "bilde2.jpg", "bilde3.jpg", "bilde4.jpg"];
 
 // Henter alle elementer med klassen .bilde
 var bilder = document.querySelectorAll(".bilde");
@@ -32,8 +32,8 @@ function flytt() {
 // og animeres inn
 bilder[indeksNesteBilde].style.left = "800px";
 bilder[indeksNesteBilde].style.display = "initial";
-bilder[indeksNesteBilde].style.animation = "innFraHoyre 2s forwards";
+bilder[indeksNesteBilde].style.animation = "innFraHoyre 1s forwards";
 // Eksisterende bilde animeres ut til venstre
-bilder[indeksSynligBilde].style.animation = "utTilVenstre 2s forwards";
+bilder[indeksSynligBilde].style.animation = "utTilVenstre 1s forwards";
 indeksSynligBilde = indeksNesteBilde;
 setTimeout(flytt, tid); }
