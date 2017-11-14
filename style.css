@@ -31,10 +31,10 @@ ul{
 	padding: 25px 25px;
   padding-bottom: 30px;
   display: run-in;
-  z-index: 99999;
+
 }
 
-.navlinks li:hover{
+.navlinks ul li:hover{
 	background-color: rgb(52, 52, 52);
 }
 
@@ -118,6 +118,8 @@ ul{
     height: 620px;
     background-color: rgb(245, 245, 245);
   }
+
+  /*
 
   @media only screen and (max-width: 700px) {
 
