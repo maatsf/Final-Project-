@@ -2,7 +2,7 @@ var indeksSynligBilde = 0;
 var indeksNesteBilde;
 var tid = 5000;
 // En array med alle bildefilene
-var bildefiler = ["bilde5.jpg", "bilde2.jpg", "bilde3.jpg", "bilde4.jpg"];
+var bildefiler = ["flasker_1.jpg", "flasker_2.jpg", "flasker_3.jpg", "flasker_4.jpg"];
 
 // Henter alle elementer med klassen .bilde
 var bilder = document.querySelectorAll(".bilde");
