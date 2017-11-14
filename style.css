@@ -3,7 +3,6 @@ body {
   padding: 0px;
 	background-color: white;
 	font-family: Helvetica,Arial,sans-serif;
-  background-color: black;
 }
 
 a{
@@ -37,6 +36,12 @@ ul{
 
 .navlinks li:hover{
 	background-color: rgb(52, 52, 52);
+}
+
+.flagg{
+  margin-top: -10px;
+  width: 40px;
+  height: auto;
 }
 
   #bildekarusell {
@@ -97,7 +102,6 @@ ul{
   }
 
   .omoss{
-    margin-top: -70px;
     background-color: white;
   }
 
@@ -107,8 +111,10 @@ ul{
     font-size: 20px;
   }
 
-  .footer{
-    width: 100%;
+  .bakgrunn{
+    margin-top: -70px;
+    font-size: 20px;
+    padding: 10%;
     height: 620px;
     background-color: rgb(245, 245, 245);
   }
