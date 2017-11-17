@@ -74,15 +74,16 @@ ul{
 
   #sitatkarusell {
     width: 100%;
-    height: 150px;
+    height: 250px;
     position: relative;
     margin: 150px auto;
     overflow: hidden;
+    top: -200px;
   }
 
   .sitatBilde {
   width: 100%;
-  height: 150px;
+  height: 250px;
   position: absolute;
   left: 0px;
   }
@@ -131,6 +132,7 @@ ul{
   }
 
   .omoss{
+    margin-top: -20%;
     background-color: white;
   }
 

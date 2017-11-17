@@ -47,14 +47,14 @@ var indeksSynligSitat = 0;
 var indeksNesteSitat;
 var sitatTid = 4000;
 
-var sitatBildefiler = ["testSitat.png","testSitat2.png","testSitat.png","testSitat2.png"];
+var sitatBildefiler = ["sitat1.jpg","sitat2.jpg","sitat3.jpg","sitat4,jpg","sitat5.jpg"];
 var sitater = document.querySelectorAll(".sitatBilde");
 
 // Legger til bakgrunnsbildene,
 // og setter display: none på alle bortsett fra første bilde
 for (var j = 0; j < sitater.length; j++) {
 // Legger til bildefilene som bakgrunnsbilder
-sitater[j].style.backgroundImage = "url(media/" + sitatBildefiler[j] + ")";
+sitater[j].style.backgroundImage = "url(media/sitater/" + sitatBildefiler[j] + ")";
 
 // Hvis bildet ikke er det første bildet (med indeks 0)
 if (j != 0) {
