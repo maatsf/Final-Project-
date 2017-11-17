@@ -47,7 +47,7 @@ var indeksSynligSitat = 0;
 var indeksNesteSitat;
 var sitatTid = 4000;
 
-var sitatBildefiler = ["sitat1.jpg","sitat2.jpg","sitat3.jpg","sitat4,jpg","sitat5.jpg"];
+var sitatBildefiler = ["sitat1.jpg","sitat2.jpg","sitat3.jpg","sitat4.jpg","sitat5.jpg"];
 var sitater = document.querySelectorAll(".sitatBilde");
 
 // Legger til bakgrunnsbildene,
