@@ -32,8 +32,52 @@ function flytt() {
 // og animeres inn
 bilder[indeksNesteBilde].style.left = "800px";
 bilder[indeksNesteBilde].style.display = "initial";
-bilder[indeksNesteBilde].style.animation = "innFraHoyre 1s forwards";
+bilder[indeksNesteBilde].style.animation = "sitatInnFraHoyre 1s forwards";
 // Eksisterende bilde animeres ut til venstre
-bilder[indeksSynligBilde].style.animation = "utTilVenstre 1s forwards";
+bilder[indeksSynligBilde].style.animation = "sitatUtTilVenstre 1s forwards";
 indeksSynligBilde = indeksNesteBilde;
 setTimeout(flytt, tid); }
+
+
+
+
+
+
+var indeksSynligSitat = 0;
+var indeksNesteSitat;
+var sitatTid = 4000;
+
+var sitatBildefiler = ["testSitat.png","testSitat2.png","testSitat.png","testSitat2.png"];
+var sitater = document.querySelectorAll(".sitatBilde");
+
+// Legger til bakgrunnsbildene,
+// og setter display: none på alle bortsett fra første bilde
+for (var j = 0; j < sitater.length; j++) {
+// Legger til bildefilene som bakgrunnsbilder
+sitater[j].style.backgroundImage = "url(media/" + sitatBildefiler[j] + ")";
+
+// Hvis bildet ikke er det første bildet (med indeks 0)
+if (j != 0) {
+// Setter display til none (usynlig)
+sitater[j].style.display = "none";
+  }
+}
+
+setTimeout(flyttSitat, sitatTid);
+
+function flyttSitat() {
+  if (indeksSynligSitat === sitater.length - 1) {
+    indeksNesteSitat = 0;
+  }
+    else {
+      indeksNesteSitat = indeksSynligSitat + 1;
+    }
+// Bildet settes inn til høyre for nåværende bilde,
+// og animeres inn
+sitater[indeksNesteSitat].style.left = "800px";
+sitater[indeksNesteSitat].style.display = "initial";
+sitater[indeksNesteSitat].style.animation = "innFraHoyre 1s forwards";
+// Eksisterende bilde animeres ut til venstre
+sitater[indeksSynligSitat].style.animation = "utTilVenstre 1s forwards";
+indeksSynligSitat = indeksNesteSitat;
+setTimeout(flyttSitat, sitatTid); }

@@ -72,6 +72,35 @@ ul{
   	 to { left: -100%; }
   }
 
+  #sitatkarusell {
+    width: 100%;
+    height: 150px;
+    position: relative;
+    margin: 150px auto;
+    overflow: hidden;
+  }
+
+  .sitatBilde {
+  width: 100%;
+  height: 150px;
+  position: absolute;
+  left: 0px;
+  }
+
+  @keyframes sitatInnFraHoyre {
+    from { left: 100%; }
+    to { left: 0%; }
+   }
+
+  @keyframes sitatUtTilVenstre {
+     from { left: 0%; }
+     to { left: -100%; }
+  }
+
+
+
+
+
   #logobilde{
     width: 50px;
     height: 50px;
@@ -117,6 +146,12 @@ ul{
     padding: 10%;
     height: 620px;
     background-color: rgb(245, 245, 245);
+  }
+
+  .footer{
+    background-color: black;
+    height: 300px;
+    width: 100%;
   }
 
   /*
