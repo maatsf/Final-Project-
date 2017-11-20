@@ -1,13 +1,13 @@
 body {
 	margin: 0px;
-  padding: 0px;
+	padding: 0px;
 	background-color: white;
 	font-family: Helvetica,Arial,sans-serif;
 }
 
 a{
 	text-decoration: none;
-  color: white;
+	color: white;
 }
 
 ul{
@@ -15,28 +15,28 @@ ul{
 }
 
 .navlinks {
-  overflow: hidden;
-  z-index: 9;
+	overflow: hidden;
+	z-index: 9;
 	background-color: black;
-  position: fixed;
+	position: fixed;
 	top: 0%;
 	width: 100%;
-  height: 70px;
+	height: 70px;
 }
 
 
 .navlinks ul li {
 	margin-left: 0%;
 	float: right;
-  padding-bottom: 30px;
-  display: run-in;
+	padding-bottom: 30px;
+	display: run-in;
 }
 
 .navlinks ul li a{
 	margin-left: 0%;
-  float: right;
+	float: right;
 	padding: 25px 25px;
-  padding-bottom: 30px;
+	padding-bottom: 30px;
 }
 
 .navlinks ul li a:hover{
@@ -44,40 +44,40 @@ ul{
 }
 
 .flagg{
-  margin-top: -10px;
-  width: 40px;
-  height: auto;
+	margin-top: -10px;
+	width: 40px;
+	height: auto;
 }
 
-  #bildekarusell {
+#bildekarusell {
     background-color: black;
     margin: 68px 0px;
   	width: 100%;
   	height: 100vh;
   	position: relative;
   	overflow: hidden;
-  }
+}
 
-  .bilde {
-  opacity: 0.5;
-  background-size: cover;
-  width: 100%;
-  height:100vh;
-  position: absolute;
-  left: 0px;
-  }
+.bilde {
+	opacity: 0.5;
+	background-size: cover;
+	width: 100%;
+	height:100vh;
+	position: absolute;
+	left: 0px;
+}
 
-  @keyframes innFraHoyre {
-  	from { left: 100%; }
-  	to { left: 0%; }
-   }
+@keyframes innFraHoyre {
+	from { left: 100%; }
+	to { left: 0%; }
+}
 
-  @keyframes utTilVenstre {
-  	 from { left: 0%; }
-  	 to { left: -100%; }
-  }
+@keyframes utTilVenstre {
+	from { left: 0%; }
+  	to { left: -100%; }
+}
 
-  #sitatkarusell {
+#sitatkarusell {
     background-size: cover;
     width: 100%;
     height: 250px;
@@ -85,48 +85,48 @@ ul{
     margin: 150px auto;
     overflow: hidden;
     top: -200px;
-  }
+}
 
-  .sitatBilde {
-  background-size: cover;
-  width: 100%;
-  height: 250px;
-  position: absolute;
-  left: 0px;
-  }
+.sitatBilde {
+	background-size: cover;
+	width: 100%;
+	height: 250px;
+	position: absolute;
+	left: 0px;
+}
 
-  @keyframes sitatInnFraHoyre {
+@keyframes sitatInnFraHoyre {
     from { left: 100%; }
     to { left: 0%; }
-   }
+}
 
-  @keyframes sitatUtTilVenstre {
-     from { left: 0%; }
-     to { left: -100%; }
-  }
+@keyframes sitatUtTilVenstre {
+    from { left: 0%; }
+    to { left: -100%; }
+}
 
 
 
-  #logobilde{
+#logobilde{
     width: 50px;
     height: 50px;
-  }
+}
 
-  .logo h3{
+.logo h3{
     position: fixed;
     left: 70px;
     top: 0.5%;
-  }
+}
 
-  .logo{
+.logo{
     z-index: 99;
     position: fixed;
     top: 1%;
     left: 1%;
     text-align: center;
-  }
+}
 
-  .forside{
+.forside{
     color: white;
     z-index: 2;
     position: absolute;
@@ -134,37 +134,34 @@ ul{
     top: 200px;
     left: 25%;
     right: 25%;
-  }
+}
 
-  .omoss{
+.omoss{
     padding-left: 5%;
     margin-top: -20%;
     background-color: white;
-  }
+}
 
-  .omossTekst{
+.omossTekst{
     width: 50%;
     display: inline-block;
     font-size: 20px;
-  }
+}
 
-  .bakgrunn{
+.bakgrunn{
     margin-top: -70px;
     font-size: 20px;
     padding: 10%;
     background-color: rgb(245, 245, 245);
-  }
+}
 
-  .footer{
-    background-color: black;
-    height: 300px;
+.footer{
+	background-color: black;
+	padding: 15px;
+	padding-left: 10px;
     width: 100%;
     color: white;
-  }
-
-  .footer p{
-    ;
-  }
+}
 
   /*
 
