@@ -187,40 +187,32 @@ ul{
 >>>>>>> 02eb54fab84b9bb37f489746aafc3ba1fad5377c
 }
 
+  /*
 
   @media only screen and (max-width: 700px) {
 
-    .navlinks {
-      margin-left: -10px;
-    	overflow: hidden;
-    	z-index: 9;
-    	background-color: black;
-    	position: fixed;
-    	top: 0%;
-      width: 101%;
-    	height: 120px;
-      box-shadow: 10px 0px 30px #000000;
+    .navlinks ul li{
+    	margin-left: 0%;
+      float: none;
+    	padding: 10px 10px;
+      text-align: center;
+      background-color: black;
+      list-style: none;
     }
 
     .navlinks ul{
-      float: left;
-      position: relative;
-      top: 40%;
+      margin-top: 0px;
+      padding: 0px;
     }
 
+    .navlinks{
 
-    .navlinks ul li {
-    	margin-left: 0%;
-    	padding-bottom: 30px;
-    	display: run-in;
+      overflow: visible;
+      position: inherit;
+      top: 300px;
+      z-index: 97;
     }
 
-    .navlinks ul li a{
-    	margin-left: 0%;
-    	float: right;
-    	padding: 25px 25px;
-    	padding-bottom: 30px;
+    .forside{
+      top: 290px;
     }
-
-
-}
