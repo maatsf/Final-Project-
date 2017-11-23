@@ -163,6 +163,15 @@ ul{
     color: white;
 }
 
+.Kilder li {
+	list-style-type: none;
+	
+}
+
+.Kilder ul {
+	margin-left: 50%;
+}
+
   /*
 
   @media only screen and (max-width: 700px) {
