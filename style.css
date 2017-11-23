@@ -167,15 +167,15 @@ ul{
     color: white;
 }
 
-<<<<<<< HEAD
 .Kilder li {
 	list-style-type: none;
-	
+
 }
 
 .Kilder ul {
 	margin-left: 50%;
-=======
+}
+
 .footer p {
   margin-right: 0px;
   padding-right: 0px;
@@ -184,7 +184,6 @@ ul{
 .app{
   height: 100vh;
   background-color: rgb(245, 245, 245);
->>>>>>> 02eb54fab84b9bb37f489746aafc3ba1fad5377c
 }
 
   /*
