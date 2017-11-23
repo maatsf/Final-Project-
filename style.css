@@ -163,6 +163,10 @@ ul{
     color: white;
 }
 
+.app{
+  height: 100vh;
+}
+
   /*
 
   @media only screen and (max-width: 700px) {
