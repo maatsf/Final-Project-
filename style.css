@@ -193,7 +193,7 @@ ul{
 	margin: 35px;
 }
 
-  /*
+  
 
   @media only screen and (max-width: 700px) {
 
@@ -222,3 +222,22 @@ ul{
     .forside{
       top: 290px;
     }
+      
+      #sitatkarusell {
+    background-size: 100vw;
+    width: 100%;
+    height: 28vw;
+    position: relative;
+    margin: 150px auto;
+    overflow: hidden;
+    top: -200px;
+}
+
+.sitatBilde {
+	background-size: 100vw;
+	width: 100%;
+	height: 28vw;
+	position: absolute;
+	left: 0px;
+}
+      

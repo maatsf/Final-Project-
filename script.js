@@ -42,7 +42,7 @@ function flytt() {
 
 
 
-
+if (screen.width > 700) {
 
   var indeksSynligSitat = 0;
   var indeksNesteSitat;
@@ -82,3 +82,51 @@ function flytt() {
     sitater[indeksSynligSitat].style.animation = "utTilVenstre 1s forwards";
     indeksSynligSitat = indeksNesteSitat;
     setTimeout(flyttSitat, sitatTid); }
+}
+
+
+
+else {
+
+
+
+ var indeksSynligSitatMob = 0;
+  var indeksNesteSitatMob;
+  var sitatTidMob = 4500;
+
+  var sitatBildefilerMob = ["sitatm1.png","sitatm2.png","sitatm3.png","sitatm4.png","sitatm5.png"];
+  var sitaterMob = document.querySelectorAll(".sitatBilde");
+
+  // Legger til bakgrunnsbildene,
+  // og setter display: none på alle bortsett fra første bilde
+  for (var a = 0; a < sitaterMob.length; a++) {
+    // Legger til bildefilene som bakgrunnsbilder
+    sitaterMob[a].style.backgroundImage = "url(media/sitaterMob/" + sitatBildefilerMob[a] + ")";
+
+    // Hvis bildet ikke er det første bildet (med indeks 0)
+    if (a != 0) {
+      // Setter display til none (usynlig)
+      sitaterMob[a].style.display = "none";
+    }
+  }
+
+  setTimeout(flyttSitatMob, sitatTidMob);
+
+  function flyttSitatMob() {
+    if (indeksSynligSitatMob === sitaterMob.length - 1) {
+      indeksNesteSitatMob = 0;
+    }
+    else {
+      indeksNesteSitatMob = indeksSynligSitatMob + 1;
+    }
+    // Bildet settes inn til høyre for nåværende bilde,
+    // og animeres inn
+    sitaterMob[indeksNesteSitatMob].style.left = "800px";
+    sitaterMob[indeksNesteSitatMob].style.display = "initial";
+    sitaterMob[indeksNesteSitatMob].style.animation = "innFraHoyre 1s forwards";
+    // Eksisterende bilde animeres ut til venstre
+    sitaterMob[indeksSynligSitatMob].style.animation = "utTilVenstre 1s forwards";
+    indeksSynligSitatMob = indeksNesteSitatMob;
+    setTimeout(flyttSitatMob, sitatTidMob); }
+    
+}
