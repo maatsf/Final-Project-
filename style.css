@@ -189,6 +189,21 @@ ul{
   height: 100vh;
   background-color: rgb(245, 245, 245);
 }
+
+.omApp {
+	display: inline-block;
+	width: 40%;
+	text-align: center;
+}
+
+.omApp p {
+	text-align: left;
+}
+.omApp h3 {
+	text-align: left;
+	display: inline-block;
+	padding-left: 5%;
+}
 .omoss img {
 	margin: 35px;
 }
