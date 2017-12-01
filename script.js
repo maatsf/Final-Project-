@@ -41,9 +41,6 @@ function flytt() {
 
 
 
-
-
-
   var indeksSynligSitat = 0;
   var indeksNesteSitat;
   var sitatTid = 4500;
@@ -84,3 +81,25 @@ function flytt() {
     sitater[indeksSynligSitat].style.animation = "utTilVenstre 1s forwards";
     indeksSynligSitat = indeksNesteSitat;
     setTimeout(flyttSitat, sitatTid); }
+
+
+    // knapp
+
+  var buttonEl = document.querySelector(".dropbtn");
+
+ var dropdownContent = document.querySelector(".dropdown-content");
+
+
+    buttonEl.addEventListener("click", minFunksjon);
+
+    function minFunksjon(){
+          if  (dropdownContent.style.right === "-240%") {
+
+            dropdownContent.style.right = "0%";
+
+          }
+
+          else {
+            dropdownContent.style.right = "-240%";
+          }
+        }
