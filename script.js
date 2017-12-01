@@ -50,7 +50,7 @@ function flytt() {
 
   var sitatBildefiler = ["sitat1.jpg","sitat2.jpg","sitat3.jpg","sitat4.jpg","sitat5.jpg"];
   var sitater = document.querySelectorAll(".sitatBilde");
-  var sitatBildefilerEng = ["","","","",""];
+  var sitatBildefilerEng = ["quote1.jpg","quote2.jpg","quote3.jpg","quote4.jpg","quote5.jpg"];
   var sitaterEng = document.querySelectorAll(".sitatBildeEng");
 
   // Legger til bakgrunnsbildene,
