@@ -44,6 +44,10 @@ function flytt() {
 <<<<<<< HEAD
 =======
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> parent of 10454b0... Merge branch 'master' of https://github.com/maatsf/Final-Project-
 
 
 >>>>>>> 10454b0819e71444c6e7c780b1ee6a4bd0944007
@@ -87,6 +91,7 @@ function flytt() {
     sitater[indeksSynligSitat].style.animation = "utTilVenstre 1s forwards";
     indeksSynligSitat = indeksNesteSitat;
     setTimeout(flyttSitat, sitatTid); }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 
@@ -156,5 +161,7 @@ var indeksSynligSitatMob = 0;
     
 }
 >>>>>>> 10454b0819e71444c6e7c780b1ee6a4bd0944007
+=======
+>>>>>>> parent of 10454b0... Merge branch 'master' of https://github.com/maatsf/Final-Project-
 =======
 >>>>>>> parent of 10454b0... Merge branch 'master' of https://github.com/maatsf/Final-Project-
