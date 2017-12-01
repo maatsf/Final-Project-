@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="nb">
+<html lang="no">
 <head>
   <meta charset="utf-8">
   <meta name="description" content="Informasjonsside for flaskepantløsningen Easy Pant">
@@ -8,7 +8,6 @@
   <title>EASY PANT</title>
   <link rel="shortcut icon" href="media/favicon.ico" type="image/x-icon">
   <link rel="icon" href="media/favicon.ico" type="image/x-icon">
-  <html lang="no">
   <link href="https://fonts.googleapis.com/css?family=Raleway|Titillium+Web" rel="stylesheet">
 </head>
 <body>
@@ -24,10 +23,10 @@
           <a href="index.html" tabindex="4"><img width="20" src="media/home.png" alt="Hjem-knapp"></a>
         </li>
         <li>
-          <a href="#omApp" tabindex="3">OM APPEN</a>
+          <a href="#applink" tabindex="3">OM APPEN</a>
         </li>
         <li>
-          <a href="#omoss" tabindex="2">OM OSS</a>
+          <a href="#omosslink" tabindex="2">OM OSS</a>
         </li>
         <li>
           <a href="#bakgrunnlink" tabindex="1">BAKGRUNN</a>
@@ -36,19 +35,20 @@
     </div>
   </nav>
 
+
  <div class="dropdown">
   <div class="dropbtn">
     <div id="strek1"></div>
     <div id="strek2"></div>
     <div id="strek3"></div>
   </div>
-  
+
   <div class="dropdown-content">
     <a href="index.html"><img width="30px" src="media/home.png" alt=""></a>
     <a href="indexEng.html"> <img  width="35px;" src="media/USA.png" alt="">  </a>
-    <a href="#">OM APPEN</a>
-    <a href="#bakgrunn">BAKGRUNN</a>
-    <a href="#omoss">OM OSS</a>
+    <a href="#applink">OM APPEN</a>
+    <a href="#omosslink">OM OSS</a>
+    <a href="#bakgrunnlink">BAKGRUNN</a>
   </div>
 </div>
 
@@ -128,6 +128,7 @@
 
 
 
+    <div id="omosslink"></div>
   <div class="omoss">
     <h1>Om oss</h1>
     <div class="omossInnhold">
@@ -166,6 +167,7 @@
     </div>
 
     </div>
+    <div id="applink"></div>
   <div class="app">
     <!--<img width="200px" src="media/googleplay.png" alt="Google Play">
     <img width="200px" src="media/applestore.png" alt="Apple Store">-->
@@ -174,10 +176,10 @@
     <p> For å benytte seg av Easy Pant kan forbrukeren ta i bruk en mobilapp hvor man skanner en QR-kode for å koble brukeren opp mot panteautomaten.
       Mobilappen skal i tillegg til å være en nødvendig funksjon også være et verktøy og et hjelpemiddel forbrukeren skal benytte for å gjøre det både enklere å pante og disponere pengene.
     </p>
-      <p id="appTekst"><b>QR-kode</b><br>Skann din QR-kode for å begynne å pante!</p>
-      <p id="appTekst"><b>Saldo</b><br>Sjekk din saldo og bestem hva du vil gjøre med pengene!</p>
-      <p id="appTekst"><b>Historikk</b><br>Se hvor mange flasker du har pantet, hvor mye du har spart miljøet og hvor mye penger du har tjent!</p>
-      <p id="appTekst"><b>Innstillinger</b><br>Gjør diverse innstillinger knyttet til din Easy Pant profil!</p>
+      <p class="appTekst"><b>QR-kode</b><br>Skann din QR-kode for å begynne å pante!</p>
+      <p class="appTekst"><b>Saldo</b><br>Sjekk din saldo og bestem hva du vil gjøre med pengene!</p>
+      <p class="appTekst"><b>Historikk</b><br>Se hvor mange flasker du har pantet, hvor mye du har spart miljøet og hvor mye penger du har tjent!</p>
+      <p class="appTekst"><b>Innstillinger</b><br>Gjør diverse innstillinger knyttet til din Easy Pant profil!</p>
   </div>
   <div class="appBilde">
       <img width="15%" src="media/phonemenunor.png" alt="Phone App">
