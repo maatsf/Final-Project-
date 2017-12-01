@@ -111,6 +111,13 @@ ul{
 	left: 0px;
 }
 
+.sitatBildeEng {
+	background-size: 100%;
+	width: 100%;
+	height: 14vw;
+	position: absolute;
+	left: 0px;
+}
 @keyframes sitatInnFraHoyre {
     from { left: 100%; }
     to { left: 0%; }
@@ -293,20 +300,29 @@ ul{
       top: 290px;
     }
 
-        #sitatkarusell {
-    background-size: 100vw;
+
+      
+      #sitatkarusell {
+    background-size: 100%;
     width: 100%;
-    height: 28vw;
+    height: 20vw;
     position: relative;
-    margin: 150px auto;
+    margin: 0px auto;
     overflow: hidden;
-    top: -200px;
 }
 
 .sitatBilde {
-	background-size: 100vw;
+	background-size: 100%;
 	width: 100%;
-	height: 28vw;
+	height: 20vw;
+	position: absolute;
+	left: 0px;
+}
+
+.sitatBildeEng {
+	background-size: 100%;
+	width: 100%;
+	height: 20vw;
 	position: absolute;
 	left: 0px;
 }
