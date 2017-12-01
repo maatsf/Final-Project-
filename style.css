@@ -146,7 +146,7 @@ ul{
 
 .omoss{
     padding-left: 5%;
-    margin-top: -20%;
+    margin-top: -35%;
     background-color: white;
 }
 
@@ -186,26 +186,36 @@ ul{
 }
 
 .app{
+	padding: 5%;
+	padding-right: 10%;
   height: 100vh;
   background-color: rgb(245, 245, 245);
 }
 
 .omApp {
+	position: relative;
+	top: -30%;
 	display: inline-block;
-	width: 40%;
+	width: 60%;
 	text-align: center;
 }
 
 .omApp p {
 	text-align: left;
+	padding-left: 10%;
+	font-size: 20px;
 }
 .omApp h3 {
 	text-align: left;
 	display: inline-block;
 	padding-left: 5%;
 }
+.omApp img{
+	padding-left: 10%;
+
+}
 .omoss img {
-	margin: 35px;
+	margin-left: 35px;
 }
 
 /*.app img {
