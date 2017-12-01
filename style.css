@@ -231,10 +231,7 @@ ul{
 display: block;
 }*/
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 .dropbtn {
     color: white;
     padding: 16px;
@@ -245,7 +242,7 @@ display: block;
 
 .dropdown {
     position: absolute;
-		top: 1000px;
+		top: -1000px;
 		left: 85%;
 		z-index: 99999;
 }
@@ -269,15 +266,6 @@ display: block;
     text-decoration: none;
     display: block;
 }
-=======
-  
->>>>>>> 10454b0819e71444c6e7c780b1ee6a4bd0944007
-=======
-  /*
->>>>>>> parent of 10454b0... Merge branch 'master' of https://github.com/maatsf/Final-Project-
-=======
-  /*
->>>>>>> parent of 10454b0... Merge branch 'master' of https://github.com/maatsf/Final-Project-
 
   @media only screen and (max-width: 700px) {
 
@@ -290,7 +278,7 @@ display: block;
       list-style: none;
     }
 
-<<<<<<< HEAD
+
 			.navlinks ul li{
 				position: fixed;
 				top: -500px;
@@ -301,22 +289,6 @@ display: block;
 					top: 0px;
 			}
 
-
-
-=======
-    .navlinks ul{
-      margin-top: 0px;
-      padding: 0px;
->>>>>>> 10454b0819e71444c6e7c780b1ee6a4bd0944007
-    }
-
-    .navlinks{
-
-      overflow: visible;
-      position: inherit;
-      top: 300px;
-      z-index: 97;
-    }
 
     .forside{
       top: 290px;
