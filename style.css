@@ -30,6 +30,7 @@ a{
 
 ul{
   margin: 0px;
+	margin-right: 5%;
 }
 
 .navlinks {
@@ -39,7 +40,7 @@ ul{
 	background-color: black;
 	position: fixed;
 	top: 0%;
-  width: 101%;
+  width: 105%;
 	height: 70px;
   box-shadow: 10px 0px 30px #000000;
 }
@@ -312,7 +313,7 @@ ul{
 <<<<<<< HEAD
 
 =======
-      
+
 >>>>>>> 62b32339eff00086ff31612a921701a3a2d15961
       #sitatkarusell {
     background-size: 100%;
