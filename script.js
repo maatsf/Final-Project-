@@ -50,7 +50,7 @@ if (screen.width > 700) {
 
   var sitatBildefiler = ["sitat1.jpg","sitat2.jpg","sitat3.jpg","sitat4.jpg","sitat5.jpg"];
   var sitater = document.querySelectorAll(".sitatBilde");
-  
+
 
   // Legger til bakgrunnsbildene,
   // og setter display: none på alle bortsett fra første bilde
@@ -124,10 +124,10 @@ var indeksSynligSitatMob = 0;
     sitaterMob[indeksSynligSitatMob].style.animation = "utTilVenstre 1s forwards";
     indeksSynligSitatMob = indeksNesteSitatMob;
     setTimeout(flyttSitatMob, sitatTidMob); }
-    
+
 }
 
-   
+
 
 //engelsk-versjon
 if (screen.width > 700) {
@@ -136,7 +136,7 @@ if (screen.width > 700) {
   var indeksNesteSitatEng;
   var sitatTidEng = 4500;
 
-  
+
   var sitatBildefilerEng = ["quote1.jpg","quote2.jpg","quote3.jpg","quote4.jpg","quote5.jpg"];
   var sitaterEng = document.querySelectorAll(".sitatBildeEng");
 
@@ -212,29 +212,45 @@ var indeksSynligSitatMobEng = 0;
     sitaterMobEng[indeksSynligSitatMobEng].style.animation = "utTilVenstre 1s forwards";
     indeksSynligSitatMobEng = indeksNesteSitatMobEng;
     setTimeout(flyttSitatMobEng, sitatTidMobEng); }
-    
+
 }
+
 
 
     // knapp
 
   var buttonEl = document.querySelector(".dropbtn");
-
- var dropdownContent = document.querySelector(".dropdown-content");
+  var dropdownContent = document.querySelector(".dropdown-content");
+  var strek1 = document.querySelector("#strek1");
+  var strek2 = document.querySelector("#strek2");
+  var strek3 = document.querySelector("#strek3");
+  var streker = document.querySelector(".dropbtn");
 
 
     buttonEl.addEventListener("click", minFunksjon);
 
-    dropdownContent.style.right = "-240%";
+    dropdownContent.style.right = "-300%";
 
     function minFunksjon(){
-          if  (dropdownContent.style.right === "-240%") {
+          if  (dropdownContent.style.right === "-300%") {
 
             dropdownContent.style.right = "0%";
+            strek1.style.transform = "rotate(45deg)";
+            strek1.style.top = "15px";
+            strek3.style.transform = "rotate(-45deg)";
+            strek3.style.top = "15px";
+            strek2.style.backgroundColor = "black";
+            streker.style.transform = "rotate(90deg)";
 
           }
 
           else {
-            dropdownContent.style.right = "-240%";
+            dropdownContent.style.right = "-300%";
+            strek1.style.transform = "rotate(0deg)";
+            strek1.style.top = "0px";
+            strek3.style.transform = "rotate(0deg)";
+            strek3.style.top = "20px";
+            strek2.style.backgroundColor = "white";
+            streker.style.transform = "rotate(0deg)";
           }
         }

@@ -254,11 +254,33 @@ ul{
 }
 
 .dropbtn {
-		color: white;
-		padding: 16px;
-		font-size: 16px;
-		border: none;
+	margin-top: ;
+	padding: 10px;
 		cursor: pointer;
+		transition: 0.5s;
+}
+
+#strek1, #strek2, #strek3{
+	background-color: white;
+	width: 40px;
+	height: 4px;
+	margin-top: 8px;
+	border-radius: 10px;
+	transition: 0.5s;
+}
+
+#strek1{
+	position: absolute;
+	top: 0px;
+}
+
+#strek2{
+	background-color: white;;
+}
+
+#strek3{
+	position: absolute;
+	top: 20px;
 }
 
 .dropdown {
@@ -271,8 +293,8 @@ ul{
 .dropdown-content {
 		text-align: center;
 		position: absolute;
-		right: -240%;
-		top: 90%;
+		right: -300%;
+		top: 177%;
 		background-color: rgb(34, 34, 34);
 		min-width: 160px;
 		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -296,7 +318,7 @@ ul{
 
 		.dropdown {
 				position: fixed;
-				top: 0px;
+				top: 13px;
 		}
 
 
@@ -309,12 +331,6 @@ ul{
       top: 290px;
     }
 
-
-<<<<<<< HEAD
-
-=======
-
->>>>>>> 62b32339eff00086ff31612a921701a3a2d15961
       #sitatkarusell {
     background-size: 100%;
     width: 100%;
@@ -326,7 +342,6 @@ ul{
 
 .sitatBilde {
 	background-size: 100%;
-<<<<<<< HEAD
 	width: 100%;
 	height: 20vw;
 	position: absolute;
@@ -335,8 +350,6 @@ ul{
 
 .sitatBildeEng {
 	background-size: 100%;
-=======
->>>>>>> 62b32339eff00086ff31612a921701a3a2d15961
 	width: 100%;
 	height: 20vw;
 	position: absolute;
