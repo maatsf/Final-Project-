@@ -195,7 +195,7 @@ ul{
 
 .omApp {
 	position: relative;
-	top: -30%;
+	top: -10%;
 	display: inline-block;
 	width: 60%;
 	text-align: center;
@@ -209,7 +209,13 @@ ul{
 .omApp h3 {
 	text-align: left;
 	display: inline-block;
-	padding-left: 5%;
+	padding-left: 10%;
+}
+
+#appTekst {
+	display: inline-block;
+	width: 15%;
+	font-size: 15px;
 }
 .omApp img{
 	padding-left: 10%;
