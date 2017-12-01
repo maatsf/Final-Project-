@@ -272,15 +272,18 @@ ul{
 #strek1{
 	position: absolute;
 	top: 0px;
+	z-index: 99;
 }
 
 #strek2{
 	background-color: white;;
+
 }
 
 #strek3{
 	position: absolute;
 	top: 20px;
+	z-index: 99;
 }
 
 .dropdown {

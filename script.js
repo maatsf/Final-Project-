@@ -239,6 +239,7 @@ var indeksSynligSitatMobEng = 0;
             strek1.style.top = "15px";
             strek3.style.transform = "rotate(-45deg)";
             strek3.style.top = "15px";
+            strek2.style.transform = "scale(0)";
             strek2.style.backgroundColor = "black";
             streker.style.transform = "rotate(90deg)";
 
@@ -250,6 +251,7 @@ var indeksSynligSitatMobEng = 0;
             strek1.style.top = "0px";
             strek3.style.transform = "rotate(0deg)";
             strek3.style.top = "20px";
+            strek2.style.transform = "scale(1)";
             strek2.style.backgroundColor = "white";
             streker.style.transform = "rotate(0deg)";
           }
