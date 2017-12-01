@@ -162,12 +162,16 @@ ul{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
+	margin-top: 40px;
 }
 .omossBilde {
-
+	flex: 1 0 35%;
 }
 .omossTekst {
-
+	flex: 2 0 65%;
+	align-self: center;
+	padding: 0;
+	margin-top: 0;
 }
 
 .bakgrunn{
