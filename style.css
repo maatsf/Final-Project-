@@ -6,6 +6,9 @@ body {
   max-width: 100%;
   overflow-x: hidden;
 }
+#overflowHide {
+	overflow-x: hidden;
+}
 h2 {
 	font-family: 'Titillium Web', sans-serif;
 }
@@ -111,6 +114,13 @@ ul{
 	left: 0px;
 }
 
+.sitatBildeEng {
+	background-size: 100%;
+	width: 100%;
+	height: 14vw;
+	position: absolute;
+	left: 0px;
+}
 @keyframes sitatInnFraHoyre {
     from { left: 100%; }
     to { left: 0%; }
@@ -165,10 +175,11 @@ ul{
 	margin-top: 40px;
 }
 .omossBilde {
-	flex: 1 0 35%;
+	flex: 1 0 200px;
+	align-self: center;
 }
 .omossTekst {
-	flex: 2 0 65%;
+	flex: 1 1 650px;
 	align-self: center;
 	padding: 0;
 	margin-top: 0;
@@ -205,15 +216,14 @@ ul{
 }
 
 .app{
-	padding: 5%;
-	padding-right: 10%;
+	padding: 4%;
+	margin: 3% 8% 3% 8%;
   height: 100vh;
   background-color: rgb(245, 245, 245);
 }
 
 .omApp {
 	position: relative;
-	top: -30%;
 	display: inline-block;
 	width: 60%;
 	text-align: center;
@@ -232,17 +242,15 @@ ul{
 	width:25%;
 	padding-left: 15%;
 }
-.omApp img{
+.app img{
 	padding-left: 10%;
+	position: relative;
+	top: 25%;
 
 }
 .omoss img {
 	margin-left: 35px;
 }
-
-/*.app img {
-	display: block;
-}*/
 
 .dropbtn {
 		color: white;
@@ -300,20 +308,29 @@ ul{
       top: 290px;
     }
 
-        #sitatkarusell {
-    background-size: 100vw;
+
+
+      #sitatkarusell {
+    background-size: 100%;
     width: 100%;
-    height: 28vw;
+    height: 20vw;
     position: relative;
-    margin: 150px auto;
+    margin: 0px auto;
     overflow: hidden;
-    top: -200px;
 }
 
 .sitatBilde {
-	background-size: 100vw;
+	background-size: 100%;
 	width: 100%;
-	height: 28vw;
+	height: 20vw;
+	position: absolute;
+	left: 0px;
+}
+
+.sitatBildeEng {
+	background-size: 100%;
+	width: 100%;
+	height: 20vw;
 	position: absolute;
 	left: 0px;
 }
