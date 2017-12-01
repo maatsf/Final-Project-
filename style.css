@@ -309,7 +309,11 @@ ul{
     }
 
 
+<<<<<<< HEAD
 
+=======
+      
+>>>>>>> 62b32339eff00086ff31612a921701a3a2d15961
       #sitatkarusell {
     background-size: 100%;
     width: 100%;
@@ -321,6 +325,17 @@ ul{
 
 .sitatBilde {
 	background-size: 100%;
+<<<<<<< HEAD
+	width: 100%;
+	height: 20vw;
+	position: absolute;
+	left: 0px;
+}
+
+.sitatBildeEng {
+	background-size: 100%;
+=======
+>>>>>>> 62b32339eff00086ff31612a921701a3a2d15961
 	width: 100%;
 	height: 20vw;
 	position: absolute;
