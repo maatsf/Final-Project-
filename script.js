@@ -41,9 +41,16 @@ function flytt() {
 
 
 
+<<<<<<< HEAD
+=======
 
-if (screen.width >= 700) {
+<<<<<<< HEAD
+=======
 
+>>>>>>> parent of 10454b0... Merge branch 'master' of https://github.com/maatsf/Final-Project-
+
+
+>>>>>>> 10454b0819e71444c6e7c780b1ee6a4bd0944007
   var indeksSynligSitat = 0;
   var indeksNesteSitat;
   var sitatTid = 4500;
@@ -84,6 +91,32 @@ if (screen.width >= 700) {
     sitater[indeksSynligSitat].style.animation = "utTilVenstre 1s forwards";
     indeksSynligSitat = indeksNesteSitat;
     setTimeout(flyttSitat, sitatTid); }
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+
+    // knapp
+
+  var buttonEl = document.querySelector(".dropbtn");
+
+ var dropdownContent = document.querySelector(".dropdown-content");
+
+
+    buttonEl.addEventListener("click", minFunksjon);
+
+    function minFunksjon(){
+          if  (dropdownContent.style.right === "-240%") {
+
+            dropdownContent.style.right = "0%";
+
+          }
+
+          else {
+            dropdownContent.style.right = "-240%";
+          }
+        }
+=======
 }
 
 else {
@@ -127,3 +160,8 @@ var indeksSynligSitatMob = 0;
     setTimeout(flyttSitatMob, sitatTidMob); }
     
 }
+>>>>>>> 10454b0819e71444c6e7c780b1ee6a4bd0944007
+=======
+>>>>>>> parent of 10454b0... Merge branch 'master' of https://github.com/maatsf/Final-Project-
+=======
+>>>>>>> parent of 10454b0... Merge branch 'master' of https://github.com/maatsf/Final-Project-
