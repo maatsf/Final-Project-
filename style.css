@@ -153,10 +153,9 @@ ul{
 }
 
 .omoss{
-		font-size: 20px;
-		padding: 4%;
-		margin: 3% 8% 3% 8%;
-		background-color: rgb(235, 245, 235);
+    padding-left: 5%;
+    margin-top: 0;
+    background-color: white;
 }
 
 .omossTekst{
@@ -166,6 +165,7 @@ ul{
 }
 
 .bakgrunn{
+    margin-top: -70px;
     font-size: 20px;
     padding: 4%;
 		margin: -2% 8% 0% 8%;
