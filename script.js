@@ -92,6 +92,8 @@ function flytt() {
 
     buttonEl.addEventListener("click", minFunksjon);
 
+    dropdownContent.style.right = "-240%";
+
     function minFunksjon(){
           if  (dropdownContent.style.right === "-240%") {
 
