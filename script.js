@@ -44,7 +44,7 @@ function flytt() {
 <<<<<<< HEAD
 =======
 
-if (screen.width >= 700) {
+
 
 >>>>>>> 10454b0819e71444c6e7c780b1ee6a4bd0944007
   var indeksSynligSitat = 0;
@@ -87,6 +87,7 @@ if (screen.width >= 700) {
     sitater[indeksSynligSitat].style.animation = "utTilVenstre 1s forwards";
     indeksSynligSitat = indeksNesteSitat;
     setTimeout(flyttSitat, sitatTid); }
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 
@@ -155,3 +156,5 @@ var indeksSynligSitatMob = 0;
     
 }
 >>>>>>> 10454b0819e71444c6e7c780b1ee6a4bd0944007
+=======
+>>>>>>> parent of 10454b0... Merge branch 'master' of https://github.com/maatsf/Final-Project-
