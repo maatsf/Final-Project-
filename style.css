@@ -7,7 +7,7 @@ body {
   overflow-x: hidden;
 }
 #overflowHide {
-	overflow-x: hidden;
+	overflow: hidden;
 }
 h2 {
 	font-family: 'Titillium Web', sans-serif;
