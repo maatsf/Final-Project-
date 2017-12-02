@@ -308,6 +308,7 @@ ul{
 		top: -1000px;
 		left: 85%;
 		z-index: 99999;
+        visibility: collapse;
 }
 
 .dropdown-content {
@@ -339,6 +340,7 @@ ul{
 .dropdown {
     position: fixed;
     top: 13px;
+    visibility: visible;
 }
 
 
