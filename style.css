@@ -248,11 +248,12 @@ ul{
 }
 .appBilde {
 	flex: 1 0 300px;
-	max-height: 80vh;
-	align-self: stretch;
+	align-self: center;
 }
 .app img{
+	display: block;
 	padding-left: 10%;
+	margin: auto;
 
 }
 .omoss img {
