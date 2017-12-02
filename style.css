@@ -12,6 +12,7 @@ h2 {
 }
 h1 {
 	font-family: 'Titillium Web', sans-serif;
+	text-transform: uppercase;
 }
 h3 {
 	font-family: Helvetica, Arial, sans-serif;
