@@ -196,7 +196,7 @@ ul{
 .footer{
 	background-color: black;
 	padding: 15px;
-	padding-left: 10px;
+	padding-left: 10%;
     max-width: 100%;
     color: white;
 }
@@ -208,12 +208,16 @@ ul{
 }
 
 .Kilder ul {
-	margin-left: 70%;
+	margin-left: 80%;
 }
 
 .footer p {
   margin-right: 0px;
   padding-right: 0px;
+}
+
+@media (max-width: 767px) {
+    .Kilder ul { margin-left:25%; }
 }
 
 .app{
