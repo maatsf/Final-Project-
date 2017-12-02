@@ -193,21 +193,10 @@ ul{
 
 .footer{
 	background-color: black;
-	 
-	padding-left: 5%;
-    padding-right: 10%;
+	padding: 15px;
+	padding-left: 10%;
     max-width: 100%;
     color: white;
-    display: flex;
-    padding-bottom: 3%;
-}
-
-.copyright {
-    width: 50%
-}
-
-.Kilder {
-    width: 50%
 }
 
 .Kilder li {
@@ -225,7 +214,9 @@ ul{
   padding-right: 0px;
 }
 
-
+@media (max-width: 767px) {
+    .Kilder ul { margin-left:25%; }
+}
 
 .app{
 	padding: 4%;
@@ -335,7 +326,6 @@ ul{
 
 
 
-
   @media only screen and (max-width: 700px) {
 
 		.dropdown {
@@ -385,28 +375,3 @@ ul{
 	position: absolute;
 	left: 0px;
 }
-
-.footer{
-    background-color: black;
-	text-align: center; 
-    padding-left: 5%;
-    padding-right: 10%;
-    max-width: 100%;
-    color: white;
-    display: block;
-    padding-bottom: 3%;
-    padding-top: 3%;
-}
-
-.copyright {
-    width: 100%
-}
-
-.Kilder {
-    width: 100%;
-   
-}
-      
-.Kilder ul {
-          margin-left: 0%;
-      }
