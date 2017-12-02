@@ -225,9 +225,12 @@ var indeksSynligSitatMobEng = 0;
   var strek2 = document.querySelector("#strek2");
   var strek3 = document.querySelector("#strek3");
   var streker = document.querySelector(".dropbtn");
+  var contentEl = document.querySelector(".dropdown-content");
 
 
     buttonEl.addEventListener("click", minFunksjon);
+    contentEl.addEventListener("click", lukk);
+
 
     dropdownContent.style.right = "-300%";
 
@@ -255,4 +258,15 @@ var indeksSynligSitatMobEng = 0;
             strek2.style.backgroundColor = "white";
             streker.style.transform = "rotate(0deg)";
           }
+        }
+
+        function lukk(){
+          dropdownContent.style.right = "-300%";
+          strek1.style.transform = "rotate(0deg)";
+          strek1.style.top = "0px";
+          strek3.style.transform = "rotate(0deg)";
+          strek3.style.top = "20px";
+          strek2.style.transform = "scale(1)";
+          strek2.style.backgroundColor = "white";
+          streker.style.transform = "rotate(0deg)";
         }
