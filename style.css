@@ -193,10 +193,14 @@ ul{
 
 .footer{
 	background-color: black;
-	padding: 15px;
-	padding-left: 10%;
+	
+	padding-left: 5%;
     max-width: 100%;
     color: white;
+    display: flex;
+    padding-right: 10%;
+    padding-bottom: 3%;
+    
 }
 
 .Kilder li {
@@ -206,17 +210,21 @@ ul{
 }
 
 .Kilder ul {
-	margin-left: 80%;
+	margin-left: 70%;
+}
+
+.Kilder {
+    width: 50%;
 }
 
 .footer p {
   margin-right: 0px;
   padding-right: 0px;
+  width:50%;
+    
 }
 
-@media (max-width: 767px) {
-    .Kilder ul { margin-left:25%; }
-}
+
 
 .app{
 	padding: 4%;
@@ -368,10 +376,33 @@ ul{
 	left: 0px;
 }
 
-.sitatBildeEng {
-	background-size: 100%;
-	width: 100%;
-	height: 20vw;
-	position: absolute;
-	left: 0px;
+      .footer{
+	background-color: black;
+	text-align: center;
+	padding-left: 5%;
+    max-width: 100%;
+    color: white;
+    display: block;
+    padding-right: 10%;
+    padding-top: 3%;
+    
 }
+
+
+.Kilder {
+    width: 100%;
+    
+}
+
+.footer p {
+  margin-right: 0px;
+  padding-right: 0px;
+  width:100%;
+    
+}
+      
+      .Kilder ul {
+          
+          margin-left: 0;
+      }
+
