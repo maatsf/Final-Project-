@@ -246,6 +246,10 @@ ul{
 	width:25%;
 	padding-left: 15%;
 }
+
+@media (max-width: 767px) {
+    .appTekst { width: 80%;}
+}
 .appBilde {
 	flex: 1 0 250px;
 	align-self: center;
