@@ -194,14 +194,14 @@ ul{
 
 .footer{
 	background-color: black;
-	
+
 	padding-left: 5%;
     max-width: 100%;
     color: white;
     display: flex;
     padding-right: 10%;
     padding-bottom: 3%;
-    
+
 }
 
 .Kilder li {
@@ -222,7 +222,7 @@ ul{
   margin-right: 0px;
   padding-right: 0px;
   width:50%;
-    
+
 }
 
 
@@ -386,22 +386,22 @@ ul{
     display: block;
     padding-right: 10%;
     padding-top: 3%;
-    
+
 }
 
 
 .Kilder {
     width: 100%;
-    
+
 }
 
 .footer p {
   margin-right: 0px;
   padding-right: 0px;
   width:100%;
-    
+
 }
-      
+
 .Kilder ul {
     margin-left: 0;
 }
@@ -415,4 +415,3 @@ ul{
 .app {
     margin: 0;
 }
-  
