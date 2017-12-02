@@ -284,6 +284,8 @@ ul {
 	width:50%;
 }
 
+/* MOBILE MENU */
+
 .dropbtn {
 	margin-top: ;
 	padding: 10px;
@@ -344,7 +346,7 @@ ul {
 	display: block;
 }
 
-/* MOBILE RESPONSIVENESS */
+/* MOBILE ADJUSTMENS / RESPONSIVENESS */
 
 @media only screen and (max-width: 700px) {
 
@@ -425,5 +427,5 @@ ul {
 	.app {
 		margin: 0;
 	}
-	
+
 }
